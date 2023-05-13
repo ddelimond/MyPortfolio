@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base{
+@layer base {
   body {
     /* bold colors will be rgb(0,155,229) for light mode */
     /* bold colors will be rgb(14,178,243) for dark mode */
@@ -24,7 +24,7 @@
   }
 
   h2 {
-    @apply text-3xl sm:text-4xl
+    @apply text-3xl md:text-4xl
   }
 
   li {
@@ -32,6 +32,6 @@
   }
 
   button {
-    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[rgb(16,129,212)] to-[rgb(14,178,243)] text-white
+    @apply shadow-xl shadow-gray-400 rounded-xl uppercase bg-gradient-to-r from-[rgb(14,178,243)] to-[rgb(14,178,243)] text-white
   }
 }

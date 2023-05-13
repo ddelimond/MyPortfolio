@@ -8,7 +8,7 @@ import infintech from '../public/assets/projects/infintech.png'
 
 const Projects = () => {
     return (
-        <div class="">
+        <div classnam="">
             <section id='projects' className="max-w-[1240px] mx-auto px-2 py-16">
                 <span className="uppercase dark:text-[rgb(14,178,243)] text-[rgb(16,129,212)] tracking-widest text-xl font-thin">Projects</span>
                 <h2 className="font-bold py-4 dark:text-[rgb(14,178,243)]">What I've Built</h2>

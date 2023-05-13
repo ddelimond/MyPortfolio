@@ -20,7 +20,7 @@ const About = () => {
                         <Link className="underline text-gray-600" href="/projects">Check out som of my latest projects</Link>
                     </div>
                     <div className="flex justify-center w-ful h-auto m-auto shadow-xl shadow-gray-400 rounded-xl items-center p-4 hover:scale-105 transition duration-300 ease-in">
-                        <Image width={450} height={200} class="rounded-xl" src={about} alt='' />
+                        <Image width={450} height={200} className="rounded-xl" src={about} alt='' />
                     </div>
                 </div>
             </section>
