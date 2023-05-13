@@ -9,7 +9,7 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
     return (
-        <div id='contact' className=' w-full lg:h-screen p-2 mb-[200px]' >
+        <div id='contact' className='dark:bg-[rgb(16,22,37)]  w-full lg:h-full p-2 mb-[200px]' >
             <section className=' max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
                 <span className='uppercase dark:text-[rgb(14,178,243)] text-[rgb(16,129,212)] tracking-widest text-xl font-thin'>Contact</span>
                 <h2 className='font-bold py-4 dark:text-[rgb(14,178,243)]'>Get In Touch</h2>
@@ -95,7 +95,7 @@ const Contact = () => {
 
                 <div className='flex justify-center py-12'>
                     <Link href='/'>
-                        <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
+                        <div className='dark:bg-[white] rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                             <HiOutlineChevronDoubleUp
                                 className='text-[#5651e5]'
                                 size={30}

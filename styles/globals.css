@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Raleway', sans-serif;
+}
+
 @layer base {
   body {
     /* bold colors will be rgb(0,155,229) for light mode */

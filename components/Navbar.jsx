@@ -15,7 +15,7 @@ const Navbar = () => {
     
 
     return (
-        <div id='top' className='fixed w-full h-20  shadow-gray-400 shadow-xl z-[1000] bg-[#ecf0f3]'>
+        <div id='top' className='fixed w-full h-20  shadow-gray-400  shadow-xl z-[1000] bg-[#ecf0f3]'>
             <nav className='flex justify-between items-center w-full h-full p-2 2xl:px-16 text-[#101625]'>
                 <section className='leftSide flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                     <Link href='/'>
