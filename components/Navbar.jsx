@@ -1,9 +1,11 @@
 import Image from 'next/image'
 import Link from 'next/link'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { AiOutlineMenu,AiOutlineMail,AiOutlineClose } from "react-icons/ai";
 import {FaGithub, FaLinkedinIn,   } from "react-icons/fa";
 import {BsFillPersonLinesFill   } from "react-icons/bs";
+import Switch from '@mui/material/Switch';
+import Toggle from './Toggle';
 
 
 const Navbar = () => {
@@ -11,25 +13,37 @@ const Navbar = () => {
     const [closeMenu, setCloseMenu] = useState(false) 
     const handleClose = () => {setCloseMenu(true)}
     const handleOpen = () => {setCloseMenu(false)}
+    let [shadow, setShadow] = useState(false)
 
-    
+    useEffect(()=>{
+        const handleShadow = ()=>{
+            if(window.scrollY >= 90){
+                setShadow(true)
+            }else{
+                setShadow(false)
+            };
+        }
+        window.addEventListener('scroll',handleShadow)
+    },[])
 
-    return (
-        <div id='top' className='fixed w-full h-20  shadow-gray-400  shadow-xl z-[1000] bg-[#ecf0f3]'>
+return (
+    <div id='top' className={shadow ? 'fixed w-full h-20  shadow-gray-400  shadow-lg z-[1000] bg-[#ecf0f3]' : 'fixed w-full h-20 z-[1000] bg-[#ecf0f3]' }>
             <nav className='flex justify-between items-center w-full h-full p-2 2xl:px-16 text-[#101625]'>
                 <section className='leftSide flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                     <Link href='/'>
                         <Image src='/../public/assets/Logo.png' alt='Site Logo' width='124' height='50'/>
                     </Link>
                 </section>
-                <section className='rightSide relative '>
+                <section className='rightSide flex justify-evenly items-center gap-x-3 relative '>
                     <ul className='hidden md:flex justify-between w-full'>
                         <Link href='/'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Home</li></Link>
                         <Link href='#about'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>About</li></Link>
                         <Link href='#skills'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Skills</li></Link>
                         <Link href='#projects'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Projects</li></Link>
                         <Link href='#contact'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
+                        
                     </ul>
+                    <Toggle />
                     <section className='mobileMenu cursor-pointer md:hidden'>
                         <AiOutlineMenu size={25} onClick={handleOpen}/>
                     </section>

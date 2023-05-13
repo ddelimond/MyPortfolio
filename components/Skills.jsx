@@ -9,7 +9,7 @@ const Skills = () => {
                 <h2 className="font-bold py-4 dark:text-[rgb(14,178,243)]">What I Can Do</h2><br />
                 <section className="md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-8">
 
-                    <div className="rounded-lg dark:bg-[white]  shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white]  shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/html.png' alt='' width="64" height="64" />
@@ -20,7 +20,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/css.png' alt='' width="64" height="64" />
@@ -31,7 +31,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/javascript.png' alt='' width="64" height="64" />
@@ -43,7 +43,7 @@ const Skills = () => {
                     </div>
 
 
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/tailwind.png' alt='' width="64" height="64" />
@@ -54,7 +54,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/ scss.png' alt='' width="64" height="64" />
@@ -66,7 +66,7 @@ const Skills = () => {
                     </div>
 
 
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/mongo.png' alt='' width="64" height="64" />
@@ -76,7 +76,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/express.png' alt='' width="64" height="64" />
@@ -86,7 +86,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/react.png' alt='' width="64" height="64" />
@@ -96,7 +96,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/node.png' alt='' width="64" height="64" />
@@ -106,7 +106,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/python.png' alt='' width="64" height="64" />
@@ -116,7 +116,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/mysql.png' alt='' width="64" height="64" />
@@ -126,7 +126,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/django.png' alt='' width="64" height="64" />
@@ -136,7 +136,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/github.png' alt='' width="64" height="64" />
@@ -146,7 +146,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/postman.png' alt='' width="64" height="64" />
@@ -157,7 +157,7 @@ const Skills = () => {
                         </div>
                     </div>
 
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/stackoverflow.png' alt='' width="64" height="64" />
@@ -167,7 +167,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/google.png' alt='' width="64" height="64" />
@@ -177,7 +177,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/netlify.png' alt='' width="64" height="64" />
@@ -187,7 +187,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/vercel.png' alt='' width="64" height="64" />
@@ -197,7 +197,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-xl shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src='/../public/assets/skills/nextjs.png' alt='' width="64" height="64" />
