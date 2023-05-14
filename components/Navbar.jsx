@@ -37,10 +37,10 @@ return (
                 <section className='rightSide flex justify-evenly items-center gap-x-3 relative '>
                     <ul className='hidden md:flex justify-between w-full'>
                         <Link href='/'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Home</li></Link>
-                        <Link href='#about'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>About</li></Link>
-                        <Link href='#skills'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Skills</li></Link>
-                        <Link href='#projects'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Projects</li></Link>
-                        <Link href='#contact'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
+                        <Link href='/#about'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>About</li></Link>
+                        <Link href='/#skills'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Skills</li></Link>
+                        <Link href='/#projects'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Projects</li></Link>
+                        <Link href='/#contact'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
                         
                     </ul>
                     <Toggle />
@@ -62,10 +62,10 @@ return (
                         <section className='flex flex-col PY-4'>
                             <ul className='uppercase'>
                                 <Link href='/'><li className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2] '>HOME</li></Link>
-                                <Link href='#about'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>ABOUT</li></Link>
-                                <Link href='#skills'><li className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>SKILLS</li></Link>
-                                <Link href='#projects'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>PROJECTS</li></Link>
-                                <Link href='#contact'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>CONTACT</li></Link>
+                                <Link href='/#about'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>ABOUT</li></Link>
+                                <Link href='/#skills'><li className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>SKILLS</li></Link>
+                                <Link href='/#projects'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>PROJECTS</li></Link>
+                                <Link href='/#contact'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>CONTACT</li></Link>
                             </ul> 
                             <article className='pt-40'>
                                 <p className='tracking-widest uppercase text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)]'>Let's Connect</p>
