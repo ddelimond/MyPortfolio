@@ -3,7 +3,7 @@ import contact from '../public/assets/contact.jpg'
 import Image from 'next/image'
 import Link from 'next/link'
 import { AiOutlineMenu, AiOutlineMail, AiOutlineClose } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn, } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
@@ -29,10 +29,10 @@ const Contact = () => {
                                 <p className='uppercase pt-8'>Connect with me</p>
                             </div>
                             <div className='social flex  items-center justify-between mx-auto text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] my-4 w-full sm:w-[80%]'>
-                                <Link href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
-                                <Link href='https://github.com/ddelimond' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>
-                                <Link href='#contact' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><AiOutlineMail size={25} /></Link>
-                                <Link href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><BsFillPersonLinesFill size={25} /></Link>
+                                <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
+                                <Link target='_blank' href='https://github.com/ddelimond' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>
+                                <Link target='_blank' href='#contact' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><AiOutlineMail size={25} /></Link>
+                                <Link target='_blank' href='https://twitter.com/D2theDev' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaTwitter size={25} /></Link>
                             </div>
                         </section>
                     </section>
