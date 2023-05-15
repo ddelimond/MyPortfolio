@@ -18,7 +18,7 @@ const Welcome = () => {
             <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-6'><FaLinkedinIn size={25} /></Link>
             <Link target='_blank' href='https://github.com/ddelimond' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-6'><FaGithub size={25} /></Link>
             <Link target='_blank' href='#contact'className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 dark:shadow-black-400 p-6'><AiOutlineMail size={25}  /></Link>
-            <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-6'><FaTwitter size={25}  /></Link>                   
+            <Link target='_blank' href='https://twitter.com/D2theDev' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-6'><FaTwitter size={25}  /></Link>                   
                 </article>
             </article>
         </section>
