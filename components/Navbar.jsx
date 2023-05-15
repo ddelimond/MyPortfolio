@@ -61,11 +61,11 @@ return (
                         </article>
                         <section className='flex flex-col PY-4'>
                             <ul className='uppercase'>
-                                <Link href='/'><li className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2] '>HOME</li></Link>
-                                <Link href='/#about'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>ABOUT</li></Link>
-                                <Link href='/#skills'><li className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>SKILLS</li></Link>
-                                <Link href='/#projects'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>PROJECTS</li></Link>
-                                <Link href='/#contact'><li className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>CONTACT</li></Link>
+                            <Link href='/'><li onClick={() => setCloseMenu(true)} className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2] '>HOME</li></Link>
+                            <Link href='/#about'><li onClick={() => setCloseMenu(true)} className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>ABOUT</li></Link>
+                            <Link href='/#skills'><li onClick={() => setCloseMenu(true)} className=' w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>SKILLS</li></Link>
+                            <Link href='/#projects'><li onClick={() => setCloseMenu(true)} className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>PROJECTS</li></Link>
+                            <Link href='/#contact'><li onClick={() => setCloseMenu(true)} className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>CONTACT</li></Link>
                             </ul> 
                             <article className='pt-40'>
                                 <p className='tracking-widest uppercase text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)]'>Let's Connect</p>
