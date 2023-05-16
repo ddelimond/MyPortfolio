@@ -3,7 +3,7 @@ import React from 'react'
 
 const Skills = () => {
     return (
-        <div id='skills' className="w-full dark:bg-[rgb(16,22,37)] lg:h-screen p-2">
+        <div id='skills' className="w-full dark:bg-[rgb(16,22,37)]  lg:h-screen pt-[100px] p-2">
             <section className=" max-w-[1240px]  mx-auto flex flex-col justify-center h-full">
                 <span className="uppercase dark:text-[rgb(14,178,243)] text-[rgb(16,129,212)] tracking-widest text-xl font-thin">Skills</span>
                 <h2 className="font-bold py-4 dark:text-[rgb(14,178,243)]">What I Can Do</h2><br />

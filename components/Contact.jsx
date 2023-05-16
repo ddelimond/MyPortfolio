@@ -9,12 +9,12 @@ import { HiOutlineChevronDoubleUp } from "react-icons/hi";
 
 const Contact = () => {
     return (
-        <div id='contact' className='dark:bg-[rgb(16,22,37)]  w-full lg:h-full p-2 mb-[200px]' >
+        <div id='contact' className='dark:bg-[rgb(16,22,37)]  w-full lg:h-full p-2 ' >
             <section className=' max-w-[1240px] mx-auto flex flex-col justify-center h-full'>
                 <span className='uppercase dark:text-[rgb(14,178,243)] text-[rgb(16,129,212)] tracking-widest text-xl font-thin'>Contact</span>
                 <h2 className='font-bold py-4 dark:text-[rgb(14,178,243)]'>Get In Touch</h2>
                 <br />
-                <section className='grid sm:grid-cols-3 md:grid-cols-5 gap-20 md:gap-8'>
+                <section className='grid sm:grid-cols-3 lg:grid-cols-5  gap-20 lgss:gap-8'>
                     <section className='dark:bg-[white] h-full w-full shadow-xl shadow-gray-400 rounded-xl col-span-3 lg:col-span-2 p-4'>
                         <section className='lg:p-4 h-full '>
                             <div>

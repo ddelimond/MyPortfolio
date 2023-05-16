@@ -15,7 +15,7 @@ scroll-behavior: smooth !important;
     /* bold colors will be rgb(0,155,229) for light mode */
     /* bold colors will be rgb(14,178,243) for dark mode */
     /* background color will be rgb(16,22,37) for dark mode */
-    @apply bg-[#ecf0f3] text-[#8899af] tracking-wide
+    @apply text-[#8899af] tracking-wide
   }
 
   h1,
