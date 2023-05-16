@@ -39,7 +39,7 @@ const songly = () => {
                             <button className='px-8 py-2 mt-4 mr-8'>Code</button>
                         </a>
                         <a
-                            href='songly-ddelimond.vercel.app'
+                            href='https://songly-ddelimond.vercel.app/'
                             target='_blank'
                             rel='noreferrer'
                         >
