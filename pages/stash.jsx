@@ -70,6 +70,9 @@ const stash = () => {
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> MongoDb
                             </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> Netlify
+                            </p>
                         </div>
                     </div>
                 </div>
