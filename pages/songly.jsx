@@ -65,6 +65,9 @@ const songly = () => {
                                 <p className='text-gray-600 py-2 flex items-center'>
                                     <RiRadioButtonFill className='pr-1' /> Node
                                 </p>
+                                <p className='text-gray-600 py-2 flex items-center'>
+                                    <RiRadioButtonFill className='pr-1' /> Vercel
+                                </p>
                             </div>
                         </div>
                     </div>
