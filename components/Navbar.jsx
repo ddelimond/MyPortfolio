@@ -56,7 +56,7 @@ return (
                             </div>
                         </section>
                         <article className='border-b border-gray-300 my-4 '>
-                            <p className='w-[85%] md:w-[90%]  py-4'>Let's build the unthinkable together</p>
+                        <p className='w-[85%] md:w-[90%]  py-4'>Let&apos;s build the unthinkable together</p>
                         </article>
                         <section className='flex flex-col PY-4'>
                             <ul className='uppercase'>
@@ -67,7 +67,7 @@ return (
                             <Link href='/#contact'><li onClick={() => setCloseMenu(true)} className='w-[20%] transform text-sm py-4 transition duration-500 hover:scale-[1.2]'>CONTACT</li></Link>
                             </ul> 
                             <article className='pt-40'>
-                                <p className='tracking-widest uppercase text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)]'>Let's Connect</p>
+                            <p className='tracking-widest uppercase text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)]'>Let&apos;s Connect</p>
                                 <article className='social flex  items-center justify-between my-4 w-full sm:w-[80%]'>
                                 <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
                                 <Link target='_blank' href='https://github.com/ddelimond' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>

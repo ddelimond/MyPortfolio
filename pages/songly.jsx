@@ -27,7 +27,7 @@ const songly = () => {
                         <p>Project</p>
                         <h2>Overview</h2>
                         <p>
-                            This is a pandora/spotify type application that allows users to search an artists songs, top hits, play their songs, or find the artists' lyric's to a song. The application was built using React, Redux, Rapid Api, and styled with Tailwind CSS.
+                            This is a pandora/spotify type application that allows users to search an artists&apos; songs, top hits, play their songs, or find the artists&apos; lyrics to a song. The application was built using React, Redux, Rapid Api, and styled with Tailwind CSS.
                         </p>
                         <a
                             href='https://github.com/ddelimond/Songly'
