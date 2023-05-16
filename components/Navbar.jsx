@@ -30,7 +30,7 @@ return (
             <nav className='flex justify-between items-center w-full h-full p-2 2xl:px-16 text-[#101625]'>
                 <section className='leftSide flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                     <Link href='/'>
-                        <Image src='/../public/assets/Logo.png' alt='Site Logo' width='124' height='50'/>
+                        <Image src='../public/assets/Logo.png' alt='Site Logo' width='124' height='50'/>
                     </Link>
                 </section>
                 <section className='rightSide flex justify-evenly items-center gap-x-3 relative '>
