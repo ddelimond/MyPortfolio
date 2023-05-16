@@ -2,6 +2,8 @@ import React from 'react'
 import Image from 'next/image'
 import { RiRadioButtonFill } from 'react-icons/ri';
 import Link from 'next/link';
+import stash from '../public/assets/projects/stash.png'
+
 
 const stash = () => {
 
@@ -13,7 +15,7 @@ const stash = () => {
                     className='absolute z-1'
                     layout='fill'
                     objectFit='cover'
-                    src={'/../public/assets/projects/stash.png'}
+                    src={stash}
                     alt='/'
                 />
                 <div className='absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2'>
@@ -64,6 +66,9 @@ const stash = () => {
                             </p>
                             <p className='text-gray-600 py-2 flex items-center'>
                                 <RiRadioButtonFill className='pr-1' /> Node
+                            </p>
+                            <p className='text-gray-600 py-2 flex items-center'>
+                                <RiRadioButtonFill className='pr-1' /> MongoDb
                             </p>
                         </div>
                     </div>
