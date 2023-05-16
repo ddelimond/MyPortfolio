@@ -15,7 +15,7 @@ const Contact = () => {
                 <h2 className='font-bold py-4 dark:text-[rgb(14,178,243)]'>Get In Touch</h2>
                 <br />
                 <section className='grid sm:grid-cols-3 md:grid-cols-5 gap-20 md:gap-8'>
-                    <section className='h-full w-full shadow-xl shadow-gray-400 rounded-xl col-span-3 lg:col-span-2 p-4'>
+                    <section className='dark:bg-[white] h-full w-full shadow-xl shadow-gray-400 rounded-xl col-span-3 lg:col-span-2 p-4'>
                         <section className='lg:p-4 h-full '>
                             <div>
                                 <Image src={contact} className='rounded-lg hover:scale-105 ease-in duration-300' alt="contact image" />
@@ -38,7 +38,7 @@ const Contact = () => {
                     </section>
 
 
-                    <section className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
+                    <section className='dark:bg-[#ecf0f3] col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
                         <div className='p-4'>
                             <form>
                                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>

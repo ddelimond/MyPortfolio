@@ -7,7 +7,7 @@ const Skills = () => {
             <section className=" max-w-[1240px]  mx-auto flex flex-col justify-center h-full">
                 <span className="uppercase dark:text-[rgb(14,178,243)] text-[rgb(16,129,212)] tracking-widest text-xl font-thin">Skills</span>
                 <h2 className="font-bold py-4 dark:text-[rgb(14,178,243)]">What I Can Do</h2><br />
-                <section className="md:grid md:grid-cols-2 lg:grid-cols-4 md:gap-8">
+                <section className="md:grid md:grid-cols-2 lg:grid-cols-4 flex flex-col w-[90%] m-auto justify-center gap-y-4 md:gap-8">
 
                     <div className="rounded-lg dark:bg-[white]  shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
