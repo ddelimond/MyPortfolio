@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react'
 import { AiOutlineMenu,AiOutlineMail,AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter   } from "react-icons/fa";
 import {BsFillPersonLinesFill   } from "react-icons/bs";
-import Switch from '@mui/material/Switch';
 import Toggle from './Toggle';
 
 
