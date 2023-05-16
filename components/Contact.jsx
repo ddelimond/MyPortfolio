@@ -29,10 +29,10 @@ const Contact = () => {
                                 <p className='uppercase pt-8'>Connect with me</p>
                             </div>
                             <div className='social flex  items-center justify-between mx-auto text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] my-4 w-full sm:w-[80%]'>
-                                <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
-                                <Link target='_blank' href='https://github.com/ddelimond' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>
-                                <Link target='_blank' href='#contact' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><AiOutlineMail size={25} /></Link>
-                                <Link target='_blank' href='https://twitter.com/D2theDev' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaTwitter size={25} /></Link>
+                                <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
+                                <Link target='_blank' href='https://github.com/ddelimond' className=' text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>
+                                <Link target='_blank' href='#contact' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><AiOutlineMail size={25} /></Link>
+                                <Link target='_blank' href='https://twitter.com/D2theDev' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaTwitter size={25} /></Link>
                             </div>
                         </section>
                     </section>

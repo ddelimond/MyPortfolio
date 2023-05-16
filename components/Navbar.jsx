@@ -5,6 +5,7 @@ import { AiOutlineMenu,AiOutlineMail,AiOutlineClose } from "react-icons/ai";
 import { FaGithub, FaLinkedinIn, FaTwitter   } from "react-icons/fa";
 import {BsFillPersonLinesFill   } from "react-icons/bs";
 import Toggle from './Toggle';
+import logo from '../public/assets/Logo.png'
 
 
 const Navbar = () => {
@@ -30,7 +31,7 @@ return (
             <nav className='flex justify-between items-center w-full h-full p-2 2xl:px-16 text-[#101625]'>
                 <section className='leftSide flex justify-between items-center w-full h-full px-2 2xl:px-16'>
                     <Link href='/'>
-                        <Image src='../public/assets/Logo.png' alt='Site Logo' width='124' height='50'/>
+                        <Image src={logo} alt='Site Logo' width='124' height='50'/>
                     </Link>
                 </section>
                 <section className='rightSide flex justify-evenly items-center gap-x-3 relative '>
@@ -50,7 +51,7 @@ return (
                 <section className={closeMenu?'':'md:hidden menuOverlay fixed left-0 top-0 w-full h-screen bg-black/70'}>
                 <article className={closeMenu? 'menu fixed left-[-100%] top-0 p-10 ease-in duration-500':'menu  fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen  bg-[#ecf0f3] p-10 ease-in duration-500'}>
                         <section className='flex w-full items-center justify-between'>
-                            <Image src='/../public/assets/Logo.png' alt='Site Logo' width='87' height='35'/>
+                            <Image src={logo} alt='Site Logo' width='87' height='35'/>
                             <div className='rounded-full shadow-lg shadow-gray-400 p-3 transition duration-500 ease-in hover:scale-[1.2] cursor-pointer'>
                                 <AiOutlineClose onClick={handleClose} size={25}/>
                             </div>
@@ -69,10 +70,10 @@ return (
                             <article className='pt-40'>
                             <p className='tracking-widest uppercase text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)]'>Let&apos;s Connect</p>
                                 <article className='social flex  items-center justify-between my-4 w-full sm:w-[80%]'>
-                                <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
-                                <Link target='_blank' href='https://github.com/ddelimond' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>
-                                <Link target='_blank' href='#contact'className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><AiOutlineMail size={25}  /></Link>
-                                <Link target='_blank' href='https://twitter.com/D2theDev' className='transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaTwitter size={25}  /></Link>
+                                <Link target='_blank' href='https://www.linkedin.com/in/darren-delimond-6b9297114/' className=' text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)]transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaLinkedinIn size={25} /></Link>
+                                <Link target='_blank' href='https://github.com/ddelimond' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaGithub size={25} /></Link>
+                                <Link target='_blank' href='#contact' className='text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><AiOutlineMail size={25}  /></Link>
+                                <Link target='_blank' href='https://twitter.com/D2theDev' className=' text-[rgb(16,129,212)] dark:text-[rgb(14,178,243)] transition duration-500 hover:scale-[1.2] rounded-full shadow-lg shadow-gray-400 p-4'><FaTwitter size={25}  /></Link>
                                 </article>
                             </article>
                         </section>
