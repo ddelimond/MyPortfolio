@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React, { useEffect, useState } from 'react'
 import { AiOutlineMenu,AiOutlineMail,AiOutlineClose } from "react-icons/ai";
-import { FaGithub, FaLinkedinIn, FaTwitter   } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaTwitter, FaFileDownload   } from "react-icons/fa";
 import {BsFillPersonLinesFill   } from "react-icons/bs";
 import Toggle from './Toggle';
 import logo from '../public/assets/Logo.png'
@@ -41,9 +41,13 @@ return (
                         <Link href='/#skills'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Skills</li></Link>
                         <Link href='/#projects'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Projects</li></Link>
                         <Link href='/#contact'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
-                        
+
                     </ul>
+
                     <Toggle />
+
+                    <Link target='_blank' href='https://drive.google.com/file/d/1Cf3vVOeLeuDYklVffUy8mskeq7Lv3f90/view?usp=sharing' download='Darren_Delimond'>{<FaFileDownload/>}</Link>
+
                     <section className='mobileMenu cursor-pointer md:hidden'>
                         <AiOutlineMenu size={25} onClick={handleOpen}/>
                     </section>
