@@ -31,6 +31,10 @@ const reelfliX = () => {
                         This is a streaming site built with EJS and the IMDb API users can search for their favorite movies and view 
                         trailer for the film as well, the application also provides user with recommendations for similar other films.
                     </p>
+
+                    <h3>Please give the application about 30 seconds to load,
+                        the site has been deployed using the free tier option on Render.com, which shuts down the backend server due to inactivity.</h3>
+
                     <a
                         href='https://github.com/ddelimond/ReelFlix'
                         target='_blank'

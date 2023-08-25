@@ -32,7 +32,8 @@ const infintech = () => {
                         This app features a functional slideshow created with jQuery, form, and  mock blog article. 
                         The application is meant to serve as a sample site for be a static site for a tech company
                         It features a drpping and ascending navbar and a featured selection.
-                    </p> 
+                    </p>
+
                     <a
                         href='https://github.com/ddelimond/Infintech'
                         target='_blank'

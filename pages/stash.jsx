@@ -33,6 +33,10 @@ const stash = () => {
 
                         Testing Visa Checkout To test your integration against Visa Checkout’s sandbox, create a new Visa Checkout user account during the checkout process on your website. Configure the account to use the test card number 4242 4242 4242 4242, a random three-digit CVC number, and any expiration date in the future. Complete the checkout process as normal. If everything worked correctly, You should make it to the Thank you screen.
                     </p>
+
+                    <h3>Please give the application products about 30 seconds to load,
+                        the site&apos;s API has been deployed using the free tier option on Render.com, which shuts down the server due to inactivity.</h3>
+
                     <a
                         href='https://github.com/ddelimond/Stash-v2'
                         target='_blank'
