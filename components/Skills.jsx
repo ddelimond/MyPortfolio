@@ -9,13 +9,13 @@ import react from '../public/assets/skills/react.png'
 import node from '../public/assets/skills/node.png'
 import github from '../public/assets/skills/github.png'
 import gpt from '../public/assets/skills/gpt.png'
-import java from '..../public/assets/skills/java.png'
-import spring from '..../public/assets/skills/spring-boot.png'
+import java from '../public/assets/skills/java.png'
+import spring from '../public/assets/skills/spring-boot.png'
 import vercel from '../public/assets/skills/vercel.png'
 import nextjs from '../public/assets/skills/nextjs.png'
 import netlify from '../public/assets/skills/netlify.png'
-import postgresql from '..../public/assets/skills/postgresql.png'
-import typescript from '..../public/assets/skills/typescript.png'
+import postgresql from '../public/assets/skills/postgresql.png'
+import typescript from '../public/assets/skills/typescript.png'
 
 const Skills = () => {
     return (
