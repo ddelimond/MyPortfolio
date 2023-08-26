@@ -42,11 +42,12 @@ return (
                         <Link href='/#projects'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Projects</li></Link>
                         <Link href='/#contact'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
 
+
                     </ul>
 
                     <Toggle />
 
-                    <Link target='_blank' href='https://drive.google.com/file/d/1Cf3vVOeLeuDYklVffUy8mskeq7Lv3f90/view?usp=sharing' download='Darren_Delimond'>{<FaFileDownload/>}</Link>
+                    <Link target='_blank' href='/public/assets/resume/Darren Delimond Resume 2023.pdf' download='Darren_Delimond'>{<FaFileDownload/>}</Link>
 
                     <section className='mobileMenu cursor-pointer md:hidden'>
                         <AiOutlineMenu size={25} onClick={handleOpen}/>

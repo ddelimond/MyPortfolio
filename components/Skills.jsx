@@ -3,23 +3,19 @@ import React from 'react'
 import html from '../public/assets/skills/html.png'
 import css from '../public/assets/skills/css.png'
 import javascript from '../public/assets/skills/javascript.png'
-import tailwind from '../public/assets/skills/tailwind.png'
-import scss from '../public/assets/skills/ scss.png'
 import mongo from '../public/assets/skills/mongo.png'
 import express from '../public/assets/skills/express.png'
 import react from '../public/assets/skills/react.png'
 import node from '../public/assets/skills/node.png'
-import python from '../public/assets/skills/python.png'
-import mysql from '../public/assets/skills/mysql.png'
-import django from '../public/assets/skills/django.png'
 import github from '../public/assets/skills/github.png'
-import google from '../public/assets/skills/google.png'
 import gpt from '../public/assets/skills/gpt.png'
-import postman from '../public/assets/skills/postman.png'
-import stack from '../public/assets/skills/stackoverflow.png'
+import java from '..../public/assets/skills/java.png'
+import spring from '..../public/assets/skills/spring-boot.png'
 import vercel from '../public/assets/skills/vercel.png'
 import nextjs from '../public/assets/skills/nextjs.png'
 import netlify from '../public/assets/skills/netlify.png'
+import postgresql from '..../public/assets/skills/postgresql.png'
+import typescript from '..../public/assets/skills/typescript.png'
 
 const Skills = () => {
     return (
@@ -61,19 +57,26 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={tailwind} alt='' width="64" height="64" />
+                                <Image src={typescript} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">tailwind</h3>
+                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">typescript</h3>
                             </div>
                         </div>
                     </div>
-
+                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
+                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
+                            <div className="m-auto">
+                                <Image src={java} alt='' width="64" height="64" />
+                            </div>
+                            <div className="flex flex-col justify-center items-center">
+                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">java</h3>
+                            </div>
+                        </div>
+                    </div>
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -119,34 +122,13 @@ const Skills = () => {
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={mysql} alt='' width="64" height="64" />
+                                <Image src={postgresql} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">mysql</h3>
+                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">postgresql</h3>
                             </div>
                         </div>
                     </div>
-                    {/* <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={python} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">python</h3>
-                            </div>
-                        </div>
-                    </div>
-            
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={django} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">django</h3>
-                            </div>
-                        </div>
-                    </div>*/}
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -161,10 +143,10 @@ const Skills = () => {
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={stack} alt='' width="64" height="64" />
+                                <Image src={spring} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">stackoverflow</h3>
+                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">springboot</h3>
                             </div>
                         </div>
                     </div>
@@ -178,46 +160,36 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={postman} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">postman</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={netlify} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">netlify</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={vercel} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">vercel</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={nextjs} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">nextjs</h3>
-                            </div>
-                        </div>
-                    </div>
+                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
+                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
+                    {/*        <div className="m-auto">*/}
+                    {/*            <Image src={netlify} alt='' width="64" height="64" />*/}
+                    {/*        </div>*/}
+                    {/*        <div className="flex flex-col justify-center items-center">*/}
+                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">netlify</h3>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
+                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
+                    {/*        <div className="m-auto">*/}
+                    {/*            <Image src={vercel} alt='' width="64" height="64" />*/}
+                    {/*        </div>*/}
+                    {/*        <div className="flex flex-col justify-center items-center">*/}
+                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">vercel</h3>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
+                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
+                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
+                    {/*        <div className="m-auto">*/}
+                    {/*            <Image src={nextjs} alt='' width="64" height="64" />*/}
+                    {/*        </div>*/}
+                    {/*        <div className="flex flex-col justify-center items-center">*/}
+                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">nextjs</h3>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </section>
             </section>
         </div >
