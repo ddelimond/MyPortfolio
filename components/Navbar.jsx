@@ -47,7 +47,7 @@ return (
 
                     <Toggle />
 
-                    <Link href='/public/assets/resume/Darren Delimond Resume 2023.pdf' download='Darren Delimond Resume'>{<FaFileDownload/>}</Link>
+                    <Link href='/Darren Delimond Resume 2023.pdf' download='Darren Delimond Resume'>{<FaFileDownload/>}</Link>
 
                     <section className='mobileMenu cursor-pointer md:hidden'>
                         <AiOutlineMenu size={25} onClick={handleOpen}/>
