@@ -3,19 +3,16 @@ import React from 'react'
 import html from '../public/assets/skills/html.png'
 import css from '../public/assets/skills/css.png'
 import javascript from '../public/assets/skills/javascript.png'
-import mongo from '../public/assets/skills/mongo.png'
 import express from '../public/assets/skills/express.png'
 import react from '../public/assets/skills/react.png'
 import node from '../public/assets/skills/node.png'
 import github from '../public/assets/skills/github.png'
 import gpt from '../public/assets/skills/gpt.png'
-import java from '../public/assets/skills/java.png'
-import spring from '../public/assets/skills/spring-boot.png'
 import vercel from '../public/assets/skills/vercel.png'
 import nextjs from '../public/assets/skills/nextjs.png'
 import netlify from '../public/assets/skills/netlify.png'
 import postgresql from '../public/assets/skills/postgresql.png'
-import typescript from '../public/assets/skills/typescript.png'
+import mongo from '../public/assets/skills/mongo.png'
 
 const Skills = () => {
     return (
@@ -60,26 +57,6 @@ const Skills = () => {
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={typescript} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">typescript</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={java} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">java</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
                                 <Image src={mongo} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
@@ -87,8 +64,6 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-
-
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -139,17 +114,6 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={spring} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">springboot</h3>
-                            </div>
-                        </div>
-                    </div>
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -160,36 +124,6 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
-                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
-                    {/*        <div className="m-auto">*/}
-                    {/*            <Image src={netlify} alt='' width="64" height="64" />*/}
-                    {/*        </div>*/}
-                    {/*        <div className="flex flex-col justify-center items-center">*/}
-                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">netlify</h3>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
-                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
-                    {/*        <div className="m-auto">*/}
-                    {/*            <Image src={vercel} alt='' width="64" height="64" />*/}
-                    {/*        </div>*/}
-                    {/*        <div className="flex flex-col justify-center items-center">*/}
-                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">vercel</h3>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
-                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
-                    {/*        <div className="m-auto">*/}
-                    {/*            <Image src={nextjs} alt='' width="64" height="64" />*/}
-                    {/*        </div>*/}
-                    {/*        <div className="flex flex-col justify-center items-center">*/}
-                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">nextjs</h3>*/}
-                    {/*        </div>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
                 </section>
             </section>
         </div >
