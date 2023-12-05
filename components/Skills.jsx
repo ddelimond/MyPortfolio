@@ -114,16 +114,16 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={gpt} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">chat gpt</h3>
-                            </div>
-                        </div>
-                    </div>
+                    {/*<div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">*/}
+                    {/*    <div className="grid grid-cols-2 gap-4 justify-center items-center">*/}
+                    {/*        <div className="m-auto">*/}
+                    {/*            <Image src={gpt} alt='' width="64" height="64" />*/}
+                    {/*        </div>*/}
+                    {/*        <div className="flex flex-col justify-center items-center">*/}
+                    {/*            <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">chat gpt</h3>*/}
+                    {/*        </div>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </section>
             </section>
         </div >
