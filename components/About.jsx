@@ -17,7 +17,7 @@ const About = () => {
                         <p className="py-2 dark:text-white text-gray-600">I have spent the last 3 years in Information Technology as a IT Support Specialist, getting my certificate in CompTIA A+, and Teaching myself how to Program. Im currently pursuing my CS Degree and plan on getting my Security+ late 2023 / early 2024. I have always had a knack for technology along with the desire to know how tech is created and functions, these two things are what inspired me to want to work with technology as a career.</p>
                         {/*<p className="py-2 dark:text-white text-gray-600">In 2020 I started working with HTML & CSS, what I thought was just a hobby turned into a love for programming. Fascinated with how intricate programming could be I was quickly drawn to learn more. I started learning JavaScript and was even more amazed by being able to give simple web pages personality  through interactivity. Once I learned enough JavaScript I moved to learning the React framework and started freelancing for local businesses in my community.</p>*/}
 
-                        <Link className="underline text-gray-600" href="/#projects">Check out som of my latest projects</Link>
+                        <Link className="underline text-gray-600" href="/#projects">Check out some of my latest projects</Link>
                     </div>
                     {/*<div className=" dark:bg-white flex justify-center w-ful h-auto m-auto shadow-xl shadow-gray-400 rounded-xl items-center p-4 hover:scale-105 transition duration-300 ease-in">*/}
                     {/*    <Image width={450} height={200} className="rounded-xl" src={about} alt='' />*/}
