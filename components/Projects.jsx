@@ -22,7 +22,7 @@ const Projects = () => {
                 */}
                 <span className="uppercase dark:text-[rgb(14,178,243)] text-[rgb(16,129,212)] tracking-widest text-xl font-thin">Projects</span>
                 <h2 className="font-bold py-4 dark:text-[rgb(14,178,243)]">What I&apos;ve Built</h2>
-                <section className="flex flex-warp justify-center max-w-[1240px]">
+                <section className="flex flex-col md:flex-row  md:flex-warp  justify-center w-full md:max-w-[1240px]">
 
                     {/* display: flex;
                     flex-wrap: wrap;
