@@ -15,7 +15,7 @@ import infintech from '../public/assets/projects/infintech.png'
 const Projects = () => {
     return (
         <div classnam="">
-            <section id='projects' className=" flex flex-col md:max-w-[1240px] md:auto justify-center w-full dark:bg-[rgb(16,22,37)]  px-2 py-16">
+            <section id='projects' className=" flex flex-col md:max-w-[1240px] md:m-auto justify-center w-full dark:bg-[rgb(16,22,37)]  px-2 py-16">
 
                 <span className="uppercase dark:text-[rgb(14,178,243)]  text-[rgb(16,129,212)] tracking-widest text-xl font-thin">Projects</span>
                 <h2 className="font-bold py-4  dark:text-[rgb(14,178,243)]">What I&apos;ve Built</h2>
