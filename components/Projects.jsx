@@ -23,8 +23,8 @@ const Projects = () => {
 
 
                     <ProjectItem image={songly} title='Songly' tools='React, Express, Node' url='/songly' />
-                    <ProjectItem image={reelflix} title='Reelflix' tools='Html, Css, JavaScript' url='/reelflix' />
-                    <ProjectItem image={infintech} title='Infintech' tools='Html, Css, JavaScript' url='/infintech' />
+                    {/* <ProjectItem image={reelflix} title='Reelflix' tools='Html, Css, JavaScript' url='/reelflix' />
+                    <ProjectItem image={infintech} title='Infintech' tools='Html, Css, JavaScript' url='/infintech' /> */}
                     <ProjectItem image={stash} title='Stash' tools='React, Express, Node' url='/stash' />
                 </section>
             </section>
