@@ -11,7 +11,7 @@ import gpt from '../public/assets/skills/gpt.png'
 import vercel from '../public/assets/skills/vercel.png'
 import nextjs from '../public/assets/skills/nextjs.png'
 import netlify from '../public/assets/skills/netlify.png'
-import postgresql from '../public/assets/skills/postgresql.png'
+import mysql from '../public/assets/skills/mysql.png'
 import mongo from '../public/assets/skills/mongo.png'
 
 const Skills = () => {
@@ -97,7 +97,7 @@ const Skills = () => {
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={postgresql} alt='' width="64" height="64" />
+                                <Image src={mysql} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
                                 <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">postgresql</h3>
