@@ -40,7 +40,7 @@ return (
                         <Link href='/#about'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>About</li></Link>
                         <Link href='/#skills'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Skills</li></Link>
                         <Link href='/#projects'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Projects</li></Link>
-                        <Link href='/#contact'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
+                        <Link href='mailto:ddelimo@wgu.edu'><li className='transform ml-10 transition duration-500 hover:scale-[1.2] hover:text-[rgb(16,129,212)] dark:hover:text-[rgb(14,178,243)]'>Contact</li></Link>
 
 
                     </ul>
@@ -83,7 +83,6 @@ return (
                         </section>
                     </article>
                 </section>
-
             </nav>
         </div>
     )

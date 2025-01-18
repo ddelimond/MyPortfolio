@@ -21,10 +21,7 @@ const Projects = () => {
                 <h2 className="font-bold py-4  dark:text-[rgb(14,178,243)]">What I&apos;ve Built</h2>
                 <section className="flex flex-col items-center md:w-[1240px] md:m-auto gap-[40px] md:flex-row md:flex-wrap  justify-center w-full md:max-w-[1240px]">
 
-
-                    <ProjectItem image={songly} title='Songly' tools='React, Express, Node' url='/songly' />
-                    {/* <ProjectItem image={reelflix} title='Reelflix' tools='Html, Css, JavaScript' url='/reelflix' />
-                    <ProjectItem image={infintech} title='Infintech' tools='Html, Css, JavaScript' url='/infintech' /> */}
+                    <ProjectItem image={reelflix} title='Reelflix' tools='Html, CSS, JavaScript' url='/reelflix' />
                     <ProjectItem image={stash} title='Stash' tools='React, Express, Node' url='/stash' />
                 </section>
             </section>
