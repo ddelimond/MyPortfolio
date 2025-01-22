@@ -30,8 +30,8 @@ const infintech = () => {
                     <p>
                         I built this application in Javascript and it is hosted on Netlify.
                         This app features a functional slideshow created with jQuery, form, and  mock blog article. 
-                        The application is meant to serve as a sample site for be a static site for a tech company
-                        It features a drpping and ascending navbar and a featured selection.
+                        The application is meant to serve as a sample site for a tech company
+                        It features a dropping and ascending navbar and a featured selection.
                     </p>
 
                     <a
