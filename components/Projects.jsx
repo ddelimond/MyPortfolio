@@ -7,11 +7,6 @@ import reelflix from '../public/assets/projects/reelflix.png'
 import infintech from '../public/assets/projects/infintech.png'
 
 
-
-
-
-
-
 const Projects = () => {
     return (
         <div classnam="">
@@ -24,7 +19,7 @@ const Projects = () => {
                     <ProjectItem image={songly} title='Songly' tools='React, Tailwind, JavaScript' url='/songly' />
                     <ProjectItem image={reelflix} title='Reelflix' tools='Html, CSS, JavaScript' url='/reelflix' />
                     <ProjectItem image={stash} title='Stash' tools='React, Express, Node' url='/stash' />
-                    <ProjectItem image={infintech} title='Infinite Tech' tools='React, Tailwind, JavaScript' url='/infintech' />
+                    <ProjectItem image={infintech} title='Infinite Tech' tools='Html, CSS, JavaScript' url='/infintech' />
 
                 </section>
             </section>
