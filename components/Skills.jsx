@@ -6,7 +6,7 @@ import javascript from '../public/assets/skills/javascript.png'
 import express from '../public/assets/skills/express.png'
 import react from '../public/assets/skills/react.png'
 import node from '../public/assets/skills/node.png'
-import github from '../public/assets/skills/github.png'
+import git from '../public/assets/skills/git.png'
 import gpt from '../public/assets/skills/gpt.png'
 import vercel from '../public/assets/skills/vercel.png'
 import nextjs from '../public/assets/skills/nextjs.png'
@@ -54,6 +54,7 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
+
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
@@ -64,53 +65,24 @@ const Skills = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={express} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">express</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={react} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">react</h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
-                        <div className="grid grid-cols-2 gap-4 justify-center items-center">
-                            <div className="m-auto">
-                                <Image src={node} alt='' width="64" height="64" />
-                            </div>
-                            <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">node</h3>
-                            </div>
-                        </div>
-                    </div>
+
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
                                 <Image src={mysql} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">postgresql</h3>
+                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">mysql</h3>
                             </div>
                         </div>
                     </div>
                     <div className="rounded-lg dark:bg-[white] shadow-md shadow-gray-400 p-4 flex justify-center cursor-pointer transition duration-500 ease-in hover:scale-105">
                         <div className="grid grid-cols-2 gap-4 justify-center items-center">
                             <div className="m-auto">
-                                <Image src={github} alt='' width="64" height="64" />
+                                <Image src={git} alt='' width="64" height="64" />
                             </div>
                             <div className="flex flex-col justify-center items-center">
-                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">github</h3>
+                                <h3 className="font-bold uppercase dark:text-[rgb(14,178,243)]">git</h3>
                             </div>
                         </div>
                     </div>
