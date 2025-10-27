@@ -5,7 +5,7 @@ https://github.com/ddelimond/MyPortfolio/assets/59320790/b351907a-b1e6-4fcc-a446
 
 
 <h1>Link</h1>
-<a href="[darrendelimond.com](https://www.darrendelimond.com/)">Interact with my Portfolio Here!</a>
+<a href="https://www.darrendelimond.com">Interact with my Portfolio Here!</a>
 
 <h1>Features</h1>
 This is my professional website/portfolio that lists a few of my large projects as well as gives a little background 
